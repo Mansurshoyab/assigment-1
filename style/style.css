@@ -306,7 +306,7 @@ nav{
 /* Donate section styles */
 
 .donate{
-    margin: 0 auto;
+    margin: 60px;
     background-color: #f9f9f9;
     display: flex;
     align-items: center;
@@ -387,4 +387,90 @@ nav{
     background: rgb(0, 106, 80);
     margin-top: 10px;
     color: white;
+}
+
+/* Subscribe section styles */
+
+.submscribe{
+    margin: 60px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    max-width: 1280px;
+    height: 300px;
+    padding: 40px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.subscribe-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 80px 80px 50px;
+}
+.subscribe-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.subscribe-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.subscribe-fild{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.subscribe-input{
+    width: 600px;
+    height: 20px;
+    flex: 1;
+    padding: 14px 16px;
+    outline: none;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+}
+.subscribe-button{
+    padding: 14px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #007b5e;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    color: white;
+}
+
+.subscribe-description-two{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Footer section styles */
+
+.footer-content{
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.footer-line{
+    width: 80%;
+    height: 1px;
+    background-color: #c6c6c6;
+    margin: 10px 0;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
