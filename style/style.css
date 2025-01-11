@@ -243,3 +243,62 @@ nav{
     font-weight: 400;
 }
 
+/* News section styles */
+
+.news{
+    margin: 60px;
+}
+
+.news-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px;
+}
+.news-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px;
+}
+
+.news-item{
+    border-radius: 24px;
+    background: rgb(248, 250, 252);
+    display: flex;
+    height: 300px;
+    padding: 48px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.news-item .image{
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+    margin: 0px 50px 0px 30px;
+}
+
+.news-item .item-content-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.news-item .date-time , .item-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.news-button{
+    width: 100px;
+    height: 36px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    margin-top: 10px;
+    color: white;
+}
